@@ -31,7 +31,6 @@ class ViewController: UIViewController {
             button.setTitle(emoji, for: .normal)
             button.backgroundColor = #colorLiteral(red: 1.0, green: 1.0, blue: 1.0, alpha: 1.0)
         }
-    }
-    
+    }    
 }
 
