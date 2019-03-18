@@ -21,6 +21,7 @@ class ViewController: UIViewController {
         flipCard(withEmoji: "👽", on: sender)
     }
     
+    //MARK:- For flipping Cards and Checking if its faceup or not
     func flipCard(withEmoji emoji : String,on button : UIButton){
         if button.currentTitle == "👽"{
             button.setTitle("", for: .normal)
