@@ -24,7 +24,6 @@ class ViewController: UIViewController {
     //MARK:- For flipping Cards and Checking if its faceup or not
     func flipCard(withEmoji emoji : String,on button : UIButton){
         if button.currentTitle == "👽"{
-            print("Trying Rolling back to last commit")
             button.setTitle("", for: .normal)
             button.backgroundColor = #colorLiteral(red: 0.9940463901, green: 0.6460192204, blue: 0, alpha: 1)
         }
